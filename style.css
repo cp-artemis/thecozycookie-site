@@ -43,6 +43,19 @@ section.gallery {
   border-radius: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.gallery-item {
+  text-align: center;
+  margin: 1rem;
+}
+.gallery-item img{
+  width: 100%;
+  border-radius: 8px;
+}
+.gallery-item figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+}
 .coming-soon {
   font-size: 1.5rem;
   margin-top: 3rem;
