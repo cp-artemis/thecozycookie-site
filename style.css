@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Quicksand', sans-serif;
-  background: #fff8f1;
+  background: #ffffff;
   color: #4e3d31;
   display: block;
   flex-direction: column;
@@ -98,7 +98,7 @@ a.social {
   padding: 1rem 2rem;
   font-family: 'Quicksand', sans-serif;
   z-index: 1000;
-  background-color: #301301;
+  background-color: #67b58e;
   color: white;
 }
 
