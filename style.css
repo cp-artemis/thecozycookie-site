@@ -99,7 +99,6 @@ a.social {
   font-family: 'Quicksand', sans-serif;
   z-index: 1000;
   background-color: #67b58e;
-  color: #000000;
 }
 
 .fade-overlay {
@@ -125,7 +124,7 @@ a.social {
 
 .nav-links a {
   text-decoration: none;
-  color: #cccaca;
+  color: #000000;
   font-weight: 500;
   transition: color 0.3s;
 }
