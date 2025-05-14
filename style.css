@@ -45,13 +45,13 @@ body {
   color: #d2691e;
 }
 
-/* MAIN LAYOUT: Flexbox */
+/* MAIN LAYOUT*/
 .main_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 120px 2rem 2rem; /* padding-top leaves space for fixed nav */
+  padding: 120px 2rem 2rem;
   gap: 2rem;
   max-width: 1200px;
   margin: 0 auto;
@@ -85,12 +85,12 @@ img.logo {
 }
 
 img.LoadingPageCookies {
-  width: 500px;      /* Set to your desired square size */
+  width: 500px;      
   height: 500px;
-  object-fit: cover; /* This crops the image */
+  object-fit: cover; 
   display: block;
   margin: 0 auto;
-  border-radius: 8px; /* Optional: round corners */
+  border-radius: 8px; 
 }
 
 
@@ -147,7 +147,7 @@ section.gallery {
   margin-top: 0.5rem;
 }
 
-/* FADE EFFECT (OPTIONAL) */
+/* FADE EFFECT */
 .fade-overlay {
   position: fixed;
   top: 80px;
@@ -170,9 +170,26 @@ section.gallery {
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 768px) {
+  .navbar {
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 0.5rem;
+  }
+
   .main_content {
     flex-direction: column;
     padding-top: 140px;
+    align-items: center;
+  }
+
+  .body_right_1, .body_left_2 {
+    width: 100%;
   }
 
   img.logo {
@@ -180,19 +197,9 @@ section.gallery {
     height: 150px;
   }
 
-  .nav-links {
-    font-size: 1.5rem;
-    gap: 1rem;
+  img.LoadingPageCookies {
+    width: 90vw;
+    height: auto;
   }
 }
 
-@media (max-width: 480px) {
-  img.logo {
-    width: 100px;
-    height: 100px;
-  }
-
-  .coming-soon {
-    font-size: 3rem;
-  }
-}
